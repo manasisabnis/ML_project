@@ -1,6 +1,7 @@
 
 Generating Music with Machine Learning
 About the Project
+
 This project uses a Long Short-Term Memory (LSTM) neural network to learn patterns from piano music and generate new musical sequences.
 
 The model is trained on MIDI files from the MAESTRO dataset. It learns to predict the next musical note or chord based on the previous 40 musical events.
@@ -238,11 +239,3 @@ This project demonstrates how an LSTM neural network can learn sequential patter
 The trained model successfully generates MIDI files, and the temperature experiments show how changing the sampling temperature affects the variation and structure of the generated music.
 
 The Streamlit interface provides an interactive way to select generation settings and download the resulting MIDI files.
-
-References
-Kang, D., Kim, J. Y., and Ringdahl, S. Generating Music with Machine Learning, Stanford CS229 Project, 2018.
-Stanford CS229 Project Report
-Stanford CS229 Project Poster
-MAESTRO Dataset
-Music21 Documentation
-TensorFlow / Keras Documentation
