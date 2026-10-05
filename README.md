@@ -124,9 +124,11 @@ ML_project/
 │
 ├── src/
 │   ├── app.py
+|   ├── analyse.py
 │   ├── generate.py
 │   ├── preprocess.py
 │   └── train.py
+|   
 │
 ├── .gitignore
 ├── README.md
